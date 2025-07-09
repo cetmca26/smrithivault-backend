@@ -1,0 +1,31 @@
+{
+  "name": "smrithivault-backend",
+  "version": "1.0.0",
+  "description": "This is the backend service built with **Node.js** and **Express.js**. It provides RESTful APIs to support the frontend React application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadhukrishnx/smrithivault-backend.git"
+  },
+  "keywords": [],
+  "author": "yadhukrishnx <yadhukrishnx@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadhukrishnx/smrithivault-backend/issues"
+  },
+  "homepage": "https://github.com/yadhukrishnx/smrithivault-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
